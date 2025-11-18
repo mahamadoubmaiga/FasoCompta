@@ -1,161 +1,153 @@
 <div align="center">
-    <a href="https://frappe.io/erpnext">
-	<img src="./erpnext/public/images/v16/erpnext.svg" alt="ERPNext Logo" height="80px" width="80xp"/>
-    </a>
-    <h2>ERPNext</h2>
+    <h1>FasoCompta</h1>
     <p align="center">
-        <p>Powerful, Intuitive and Open-Source ERP</p>
+        <p>Système de Gestion Financière, Comptable et RH pour l'Afrique de l'Ouest</p>
+        <p>Financial Management, Accounting and HR System for West Africa</p>
     </p>
 
-[![Learn on Frappe School](https://img.shields.io/badge/Frappe%20School-Learn%20ERPNext-blue?style=flat-square)](https://frappe.school)<br><br>
-[![CI](https://github.com/frappe/erpnext/actions/workflows/server-tests-mariadb.yml/badge.svg?event=schedule)](https://github.com/frappe/erpnext/actions/workflows/server-tests-mariadb.yml)
-[![docker pulls](https://img.shields.io/docker/pulls/frappe/erpnext-worker.svg)](https://hub.docker.com/r/frappe/erpnext-worker)
-
 </div>
 
-<div align="center">
-	<img src="./erpnext/public/images/v16/hero_image.png"/>
-</div>
+## À Propos / About
 
-<div align="center">
-	<a href="https://erpnext-demo.frappe.cloud/api/method/erpnext_demo.erpnext_demo.auth.login_demo">Live Demo</a>
-	-
-	<a href="https://frappe.io/erpnext">Website</a>
-	-
-	<a href="https://docs.frappe.io/erpnext/">Documentation</a>
-</div>
+**FasoCompta** est une application web complète de gestion d'entreprise spécialement conçue pour les restaurants, boutiques, commerces généraux et entrepreneurs maliens et ouest-africains. Basé sur ERPNext, FasoCompta offre une solution adaptée aux réalités du marché ouest-africain.
 
-## ERPNext
+**FasoCompta** is a comprehensive business management web application specifically designed for restaurants, shops, general commerce, and Malian and West African entrepreneurs. Based on ERPNext, FasoCompta offers a solution adapted to the realities of the West African market.
 
-100% Open-Source ERP system to help you run your business.
+## Fonctionnalités Principales / Key Features
 
-### Motivation
+### 💰 Gestion Financière et Comptable / Financial & Accounting Management
+- **Comptabilité Générale** : Plan comptable OHADA/SYSCOHADA adapté
+- **Facturation** : Création et gestion des factures de vente et d'achat
+- **Trésorerie** : Suivi des flux de trésorerie et rapprochements bancaires
+- **Fiscalité** : Gestion TVA, impôts et taxes locales (Mali, Sénégal, Côte d'Ivoire, etc.)
+- **Rapports Financiers** : Bilan, compte de résultat, grand livre, balance
 
-Running a business is a complex task - handling invoices, tracking stock, managing personnel and even more ad-hoc activities. In a market where software is sold separately to manage each of these tasks, ERPNext does all of the above and more, for free.
+### 👥 Gestion des Ressources Humaines (GRH) / HR Management
+- **Gestion du Personnel** : Dossiers employés, contrats, congés
+- **Paie** : Calcul des salaires selon les réglementations locales
+- **Présence** : Pointage et gestion des horaires
+- **Formation** : Suivi des formations et compétences
 
-### Key Features
+### 🍽️ Spécial Restaurants / Restaurant Features
+- **Point de Vente (POS)** : Caisse rapide et intuitive
+- **Gestion des Tables** : Réservations et suivi des commandes
+- **Gestion des Stocks** : Ingrédients et approvisionnements
+- **Gestion des Recettes** : Fiches techniques et coûts de revient
+- **Inventaire** : Suivi en temps réel des stocks
 
-- **Accounting**: All the tools you need to manage cash flow in one place, right from recording transactions to summarizing and analyzing financial reports.
-- **Order Management**: Track inventory levels, replenish stock, and manage sales orders, customers, suppliers, shipments, deliverables, and order fulfillment.
-- **Manufacturing**: Simplifies the production cycle, helps track material consumption, exhibits capacity planning, handles subcontracting, and more!
-- **Asset Management**: From purchase to perishment, IT infrastructure to equipment. Cover every branch of your organization, all in one centralized system.
-- **Projects**: Delivery both internal and external Projects on time, budget and Profitability. Track tasks, timesheets, and issues by project.
+### 🏪 Spécial Boutiques / Retail Features
+- **Gestion des Stocks** : Suivi multi-magasin et multi-dépôt
+- **Point de Vente** : Ventes rapides avec scanner de codes-barres
+- **Gestion des Prix** : Tarifs multiples, promotions, remises
+- **Gestion des Fournisseurs** : Commandes et réceptions
+- **Inventaire Périodique** : Outils de comptage et ajustement
 
-<details open>
+### 📊 Commerce Général / General Commerce
+- **Gestion Commerciale** : Devis, bons de commande, livraisons
+- **CRM** : Gestion de la relation client
+- **Achats** : Gestion des fournisseurs et approvisionnements
+- **Projets** : Suivi de projets et tâches
+- **Rapports** : Tableaux de bord et analyses personnalisables
 
-<summary>More</summary>
-	<img src="https://erpnext.com/files/v16_bom.png"/>
-	<img src="https://erpnext.com/files/v16_stock_summary.png"/>
-	<img src="https://erpnext.com/files/v16_job_card.png"/>
-	<img src="https://erpnext.com/files/v16_tasks.png"/>
-</details>
+## Spécificités Ouest-Africaines / West African Specifics
 
-### Under the Hood
+- ✅ **Monnaie** : Franc CFA (XOF/XAF) et autres devises locales
+- ✅ **Fiscalité** : Système fiscal malien et autres pays UEMOA/CEMAC
+- ✅ **Plan Comptable** : OHADA/SYSCOHADA
+- ✅ **Langues** : Français (interface et documentation)
+- ✅ **Réglementations** : Conformité aux normes locales
+- ✅ **Support Mobile** : Application responsive pour une utilisation sur mobile
 
-- [**Frappe Framework**](https://github.com/frappe/frappe): A full-stack web application framework written in Python and Javascript. The framework provides a robust foundation for building web applications, including a database abstraction layer, user authentication, and a REST API.
+## Installation / Setup
 
-- [**Frappe UI**](https://github.com/frappe/frappe-ui): A Vue-based UI library, to provide a modern user interface. The Frappe UI library provides a variety of components that can be used to build single-page applications on top of the Frappe Framework.
+### Prérequis / Prerequisites
 
-## Production Setup
+- Python 3.10+
+- Node.js 18+
+- MariaDB 10.6+
+- Redis
 
-### Managed Hosting
+### Installation avec Frappe Bench / Installation with Frappe Bench
 
-You can try [Frappe Cloud](https://frappecloud.com), a simple, user-friendly and sophisticated [open-source](https://github.com/frappe/press) platform to host Frappe applications with peace of mind.
+```bash
+# Installer bench
+pip install frappe-bench
 
-It takes care of installation, setup, upgrades, monitoring, maintenance and support of your Frappe deployments. It is a fully featured developer platform with an ability to manage and control multiple Frappe deployments.
+# Créer un nouveau site
+bench init fasocompta-bench
+cd fasocompta-bench
 
-<div>
-	<a href="https://erpnext-demo.frappe.cloud/app/home" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/try-on-fc-white.png">
-			<img src="https://frappe.io/files/try-on-fc-black.png" alt="Try on Frappe Cloud" height="28" />
-		</picture>
-	</a>
-</div>
+# Créer un nouveau site
+bench new-site fasocompta.local
 
+# Obtenir l'application FasoCompta
+bench get-app https://github.com/mahamadoubmaiga/FasoCompta
 
+# Installer l'application
+bench --site fasocompta.local install-app erpnext
 
-### Self-Hosted
-#### Docker
-
-Prerequisites: docker, docker-compose, git. Refer [Docker Documentation](https://docs.docker.com) for more details on Docker setup.
-
-Run following commands:
-
+# Démarrer
+bench start
 ```
+
+Accédez à votre site sur `http://fasocompta.local:8000`
+
+### Installation avec Docker / Docker Installation
+
+```bash
 git clone https://github.com/frappe/frappe_docker
 cd frappe_docker
 docker compose -f pwd.yml up -d
 ```
 
-After a couple of minutes, site should be accessible on your localhost port: 8080. Use below default login credentials to access the site.
-- Username: Administrator
-- Password: admin
+## Configuration Initiale / Initial Setup
 
-See [Frappe Docker](https://github.com/frappe/frappe_docker?tab=readme-ov-file#to-run-on-arm64-architecture-follow-this-instructions) for ARM based docker setup.
+Après l'installation, configurez votre système :
 
+1. **Sélectionnez votre pays** : Mali, Sénégal, Côte d'Ivoire, etc.
+2. **Choisissez votre secteur** : Restaurant, Boutique, Commerce Général
+3. **Configurez votre devise** : XOF (Franc CFA) ou autre
+4. **Importez le plan comptable** : OHADA/SYSCOHADA
+5. **Configurez les taxes** : TVA et autres taxes locales
 
-## Development Setup
-### Manual Install
+## Documentation
 
-The Easy Way: our install script for bench will install all dependencies (e.g. MariaDB). See https://github.com/frappe/bench for more details.
+- [Guide d'Utilisation (Français)](/docs/fr/README.md)
+- [Guide de Configuration](/docs/fr/configuration.md)
+- [Guide Restaurant](/docs/fr/restaurant.md)
+- [Guide Boutique](/docs/fr/boutique.md)
+- [Documentation Frappe](https://frappeframework.com/docs)
+- [Documentation ERPNext](https://docs.erpnext.com/)
 
-New passwords will be created for the ERPNext "Administrator" user, the MariaDB root user, and the frappe user (the script displays the passwords and saves them to ~/frappe_passwords.txt).
+## Support et Communauté / Support & Community
 
+- **Email** : contact@fasocompta.com
+- **Issues** : [GitHub Issues](https://github.com/mahamadoubmaiga/FasoCompta/issues)
+- **Documentation** : [Wiki](https://github.com/mahamadoubmaiga/FasoCompta/wiki)
 
-### Local
+## Technologies Utilisées / Technologies Used
 
-To setup the repository locally follow the steps mentioned below:
+- **Backend** : Python (Frappe Framework)
+- **Frontend** : JavaScript, Vue.js (Frappe UI)
+- **Base de Données** : MariaDB
+- **Cache** : Redis
+- **Architecture** : Application Web Progressive (PWA)
 
-1. Setup bench by following the [Installation Steps](https://frappeframework.com/docs/user/en/installation) and start the server
-   ```
-   bench start
-   ```
+## Contribution
 
-2. In a separate terminal window, run the following commands:
-   ```
-   # Create a new site
-   bench new-site erpnext.localhost
-   ```
+Les contributions sont les bienvenues ! Consultez notre [Guide de Contribution](CONTRIBUTING.md).
 
-3. Get the ERPNext app and install it
-   ```
-   # Get the ERPNext app
-   bench get-app https://github.com/frappe/erpnext
+## Licence / License
 
-   # Install the app
-   bench --site erpnext.localhost install-app erpnext
-   ```
+GNU General Public License v3.0 - Voir [LICENSE](license.txt)
 
-4. Open the URL `http://erpnext.localhost:8000/app` in your browser, you should see the app running
+## Remerciements / Acknowledgments
 
-## Learning and community
+Ce projet est basé sur [ERPNext](https://github.com/frappe/erpnext) et [Frappe Framework](https://github.com/frappe/frappe), développés par Frappe Technologies. Nous remercions la communauté open-source pour leur excellent travail.
 
-1. [Frappe School](https://school.frappe.io) - Learn Frappe Framework and ERPNext from the various courses by the maintainers or from the community.
-2. [Official documentation](https://docs.erpnext.com/) - Extensive documentation for ERPNext.
-3. [Discussion Forum](https://discuss.frappe.io/c/erpnext/6) - Engage with community of ERPNext users and service providers.
-4. [Telegram Group](https://erpnext_public.t.me) - Get instant help from huge community of users.
+---
 
-
-## Contributing
-
-1. [Issue Guidelines](https://github.com/frappe/erpnext/wiki/Issue-Guidelines)
-1. [Report Security Vulnerabilities](https://erpnext.com/security)
-1. [Pull Request Requirements](https://github.com/frappe/erpnext/wiki/Contribution-Guidelines)
-2. [Translations](https://crowdin.com/project/frappe)
-
-
-## Logo and Trademark Policy
-
-Please read our [Logo and Trademark Policy](TRADEMARK_POLICY.md).
-
-<br />
-<br />
-<div align="center" style="padding-top: 0.75rem;">
-	<a href="https://frappe.io" target="_blank">
-		<picture>
-			<source media="(prefers-color-scheme: dark)" srcset="https://frappe.io/files/Frappe-white.png">
-			<img src="https://frappe.io/files/Frappe-black.png" alt="Frappe Technologies" height="28"/>
-		</picture>
-	</a>
+<div align="center">
+    <p>Fait avec ❤️ pour les entrepreneurs ouest-africains</p>
+    <p>Made with ❤️ for West African entrepreneurs</p>
 </div>

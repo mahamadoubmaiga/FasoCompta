@@ -1,9 +1,9 @@
 [project]
 name = "erpnext"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "FasoCompta", email = "contact@fasocompta.com"}
 ]
-description = "Open Source ERP"
+description = "Système de gestion financière, comptable et RH pour les restaurants, boutiques et entrepreneurs ouest-africains"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
@@ -81,6 +81,6 @@ docstring-code-format = true
 
 
 [project.urls]
-Homepage = "https://frappe.io/erpnext"
-Repository = "https://github.com/frappe/erpnext.git"
-"Bug Reports" = "https://github.com/frappe/erpnext/issues"
+Homepage = "https://github.com/mahamadoubmaiga/FasoCompta"
+Repository = "https://github.com/mahamadoubmaiga/FasoCompta.git"
+"Bug Reports" = "https://github.com/mahamadoubmaiga/FasoCompta/issues"
