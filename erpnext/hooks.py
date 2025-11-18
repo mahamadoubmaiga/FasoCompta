@@ -1,12 +1,12 @@
 app_name = "erpnext"
-app_title = "ERPNext"
-app_publisher = "Frappe Technologies Pvt. Ltd."
-app_description = """ERP made simple"""
+app_title = "FasoCompta"
+app_publisher = "FasoCompta"
+app_description = """Système de gestion financière, comptable et RH pour les restaurants, boutiques et entrepreneurs ouest-africains"""
 app_icon = "fa fa-th"
-app_color = "#e74c3c"
-app_email = "hello@frappe.io"
+app_color = "#00B050"
+app_email = "contact@fasocompta.com"
 app_license = "GNU General Public License (v3)"
-source_link = "https://github.com/frappe/erpnext"
+source_link = "https://github.com/mahamadoubmaiga/FasoCompta"
 app_logo_url = "/assets/erpnext/images/erpnext-logo.svg"
 app_home = "/app/home"
 
@@ -14,7 +14,7 @@ add_to_apps_screen = [
 	{
 		"name": app_name,
 		"logo": "/assets/erpnext/images/erpnext-logo.svg",
-		"title": app_title,
+		"title": "FasoCompta",
 		"route": app_home,
 		"has_permission": "erpnext.check_app_permission",
 	}
